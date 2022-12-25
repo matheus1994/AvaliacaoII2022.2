@@ -1,10 +1,7 @@
 package model;
 
-public class Livro implements Obra{
+public class Livro extends Obra{
 	
-	private String titulo;
-	private Integer ano;
-	private Double avaliacao;	
 	private String editora;
 	private String idioma;
 	private String autor;
@@ -14,11 +11,7 @@ public class Livro implements Obra{
 	public Livro(String titulo, Integer ano, Double avaliacao,
 				 String editora, String idioma,
 				 String autor, Integer numeroPaginas) {
-		this.avaliacao = avaliacao;
-		this.editora = editora;
-		this.idioma = idioma;
-		this.autor = autor;
-		this.numeroPaginas = numeroPaginas;
+		super(titulo, ano, avaliacao);
 		this.editora = editora;
 		this.idioma = idioma;
 		this.autor = autor;
@@ -44,23 +37,7 @@ public class Livro implements Obra{
 		return this.numeroPaginas;
 	}
 	
-	@Override
-	public String getTitulo() {
-		// TODO Auto-generated method stub
-		return this.titulo;
-	}
-
-	@Override
-	public Integer getAno() {
-		// TODO Auto-generated method stub
-		return this.ano;
-	}
-
-	@Override
-	public Double getAvaliacao() {
-		// TODO Auto-generated method stub
-		return this.avaliacao;
-	}
+	
 
 	
 

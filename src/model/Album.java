@@ -1,10 +1,7 @@
 package model;
 
-public class Album implements Obra {
-	
-	private String titulo;
-	private Integer ano;
-	private Double avaliacao;	
+public class Album extends Obra {
+		
     private String gravadora;
 	private String estudio;
 	private String autor;
@@ -13,9 +10,7 @@ public class Album implements Obra {
 	public Album(String titulo, Integer ano, Double avaliacao,
 				 String gravadora, String estudio,
 				 String autor, Integer duracao) {
-		this.titulo = titulo;
-		this.ano = ano;
-		this.avaliacao = avaliacao;
+		super(titulo, ano, avaliacao);
 		this.gravadora = gravadora;
 		this.estudio = estudio;
 		this.autor = autor;
@@ -38,22 +33,5 @@ public class Album implements Obra {
 		return this.estudio;
 	}
 
-	@Override
-	public String getTitulo() {
-		// TODO Auto-generated method stub
-		return this.titulo;
-	}
-
-	@Override
-	public Integer getAno() {
-		// TODO Auto-generated method stub
-		return this.ano;
-	}
-
-	@Override
-	public Double getAvaliacao() {
-		// TODO Auto-generated method stub
-		return this.avaliacao;
-	}
 	
 }
