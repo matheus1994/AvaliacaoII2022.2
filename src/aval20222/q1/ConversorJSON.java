@@ -34,5 +34,9 @@ public class ConversorJSON implements Conversor{
 		}
 		
 	}
+	
+	public Conversor clone() {
+		return new ConversorJSON();
+	}
 
 }

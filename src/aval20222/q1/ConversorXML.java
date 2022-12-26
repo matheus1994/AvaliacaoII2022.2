@@ -34,5 +34,10 @@ public class ConversorXML implements Conversor{
 		}
 		
 	}
+	
+
+	public Conversor clone() {
+		return new ConversorJSON();
+	}
 
 }
