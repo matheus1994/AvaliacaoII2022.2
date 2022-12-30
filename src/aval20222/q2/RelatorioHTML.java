@@ -1,9 +1,8 @@
 package aval20222.q2;
-
 import model.Album;
 import model.Livro;
 import model.Obra;
-
+//o pacote aval20222.q2 significa que é a resposta da segunda questão.
 public class RelatorioHTML implements Relatorio{
 
 	public String formatoRelatorio(Obra obra, TipoRelatorio tipo) {

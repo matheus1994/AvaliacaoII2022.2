@@ -3,6 +3,7 @@ package aval20222.q1;
 import model.Album;
 import model.Livro;
 import model.Obra;
+//o pacote aval20222.q1 significa que é a resposta da primeira questão.
 
 public class ConversorJSON implements Conversor{
 

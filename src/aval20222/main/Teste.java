@@ -9,7 +9,7 @@ import aval20222.q2.RelatorioLATEX;
 import aval20222.q2.TipoRelatorio;
 import model.Album;
 import model.Obra;
-
+//Essa é a classe teste para todas as questões do trabalho.
 public class Teste {
 
 	public static void main(String args[]) {
