@@ -1,4 +1,4 @@
-//O pacote aval20222.q1 significa que é a resposta da primeira questão.
+//O pacote aval20222.q2 significa que é a resposta da segunda questão.
 //A enum TipoRelatório possui dois tipos de relatório, RESUMIDO e COMPLETO.
 //Na segunda questão nós utilizamos o padrão prototype.
 
