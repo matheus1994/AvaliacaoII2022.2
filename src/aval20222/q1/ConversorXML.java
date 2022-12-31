@@ -1,9 +1,13 @@
-package aval20222.q1;
+//O pacote aval20222.q1 significa que é a resposta da primeira questão.
+//A classe ConversorXML implementa a interface Conversor.
+//O método converte recebe uma obra e a exibe no formato XML.
+//O método clone retorna um clone de um objeto.
+//Na primeira questão nós utilizamos o padrão prototype.
 
+package aval20222.q1;
 import model.Album;
 import model.Livro;
 import model.Obra;
-//o pacote aval20222.q1 significa que é a resposta da primeira questão.
 
 public class ConversorXML implements Conversor{
 

@@ -1,3 +1,6 @@
+//O pacote model possui as classes que já fazem parte do trabalho, e servem como base para as duas questões.
+//Essa é a classe abstrata Obra.
+
 package model;
 
 public abstract class Obra {

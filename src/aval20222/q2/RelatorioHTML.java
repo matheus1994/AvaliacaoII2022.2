@@ -1,8 +1,14 @@
+//O pacote aval20222.q2 significa que é a resposta da segunda questão.
+//A classe RelatorioHTML implementa a interface Relatorio.
+//O método formatoRelatorio recebe uma obra e um tipo de relatório e a exibe no formato HTML.
+//O método clone retorna um clone de um objeto.
+//Na segunda questão nós utilizamos o padrão prototype.
+
 package aval20222.q2;
 import model.Album;
 import model.Livro;
 import model.Obra;
-//o pacote aval20222.q2 significa que é a resposta da segunda questão.
+
 public class RelatorioHTML implements Relatorio{
 
 	public String formatoRelatorio(Obra obra, TipoRelatorio tipo) {
